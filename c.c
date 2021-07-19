@@ -2,24 +2,25 @@
 
 
 /*
-    名称：计算球体积
+    名称：用printf函数格式化数
     作者：邓宝乐
     日期：20210719
 
 */
 
-#include "stdio.h"
-#include "string.h"
+#include <stdio.h>
+
 
 int main()
 {
-    float v, i;
+    int i;
+    float x;
 
-    printf("请输入球的半径：\n");
-    scanf("%f",&i);
+    i = 40;
+    x = 839.21f;
 
-    v = 4.0f / 3.0f * 3.14f * i * i * i;
-    printf("球的体积为：%f\n", v);
+    printf("|%d|%5d|%-5d|%5.3d|\n", i, i, i, i);
+    printf("|%10.3f|%10.3e|%-10g|\n", x, x, x);
   
     return 0;
 }
