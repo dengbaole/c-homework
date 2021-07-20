@@ -4,6 +4,39 @@
 
 
 /*
+    名称：if语句的应用
+    功能：if语句的一般应用
+    作者：邓宝乐
+    日期：20210719
+
+*/
+
+int main()
+{
+    int i = 1;
+    if (i == 1)
+    {
+        printf("%d\n", i);
+    }
+    else
+    {
+        printf("%d\n", i);
+    }
+
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
     名称：addfrac.c
     功能：分数相加
     作者：邓宝乐
@@ -12,23 +45,23 @@
 */
 
 
-int main()
-{
-    int num1, num2, denom1, denom2, result_num, result_denom;
-
-    printf("Enter the first fraction:");
-    scanf("%d/%d", &num1, &denom1);
-
-    printf("Enter the second fraction:");
-    scanf("%d/%d", &num2, &denom2);
-
-    result_num = num1 * denom1 + num2 * denom2;
-    result_denom = denom1 * denom2;
-
-    printf("The sum is %d/%d\n", result_num, result_denom);
-
-    return 0;
-}
+//int main()
+//{
+//    int num1, num2, denom1, denom2, result_num, result_denom;
+//
+//    printf("Enter the first fraction:");
+//    scanf("%d/%d", &num1, &denom1);
+//
+//    printf("Enter the second fraction:");
+//    scanf("%d/%d", &num2, &denom2);
+//
+//    result_num = num1 * denom1 + num2 * denom2;
+//    result_denom = denom1 * denom2;
+//
+//    printf("The sum is %d/%d\n", result_num, result_denom);
+//
+//    return 0;
+//}
 
 
 
